@@ -28,7 +28,4 @@ body::after{
   .text-balance {
     text-wrap: balance;
   }
-  .navMove{
-    transform: translateY(-10px) translateX(-50%);
-  }
 }

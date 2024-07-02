@@ -27,6 +27,9 @@
   z-index: 1000;
   transition: 300ms;
 }
+.navMove{
+  transform: translateY(-10px) translateX(-50%);
+}
 .logoBox{
   position: relative;
   width: auto;
@@ -94,6 +97,7 @@
   justify-content: center;
   align-items: center;
   height: auto;
+  z-index: 1000;
 }
 .hamburger {
   width: 35px;
@@ -129,12 +133,28 @@
     display: none;
   }
   .navigation{
-    display: none;
+    transform: translateY(-200%) translateX(-50%);
+  }
+  .navMove{
+    transform: translateY(-200%) translateX(-50%);
+  }
+  .mobileNav {
+    transform: translateY(0%) translateX(-50%) !important;
   }
   .nav{
     padding-inline: 20px;
   }
   .logo{
     top: -0px;
+  }
+  .navigation{
+    width: fit-content;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    min-height: 50px;
+    height: auto;
+    gap: 15px;
+    flex-wrap: wrap;
   }
 }

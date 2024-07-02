@@ -4,8 +4,8 @@ import Link from "next/link";
 import React, { useEffect, useState } from 'react';
 
 function Navbar(){
-
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,46 +17,46 @@ function Navbar(){
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => {window.removeEventListener('scroll', handleScroll);};}, []);
+    return () => {window.removeEventListener('scroll', handleScroll);};
+  }, []);
 
-    const [isOpen, setIsOpen] = useState(false);
-  
-    const toggleMenu = () => {
-      setIsOpen(!isOpen);
-    };
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   const hireUs = () => {
     return(<Link href="#" className={`navLink navHire ${scrolled ? 'block' : 'hidden'}`}>Hire Us</Link>)
   }
+
   return(
     <>
-    <nav className="nav">
-      <div className="logoBox">
-      <img className="logo1" src="/logo-left.png" alt="logo"></img>
-      <img className="logo2" src="/logo-right.png" alt="logo"></img>
-      </div>
-      <div className={`navigation ${scrolled ? 'navMove' : ''}`}>
-        <Link href="#" className="navLink mr-6">Services</Link>
-        <Link href="#" className="navLink">Portfolio</Link>
-        <Link href="#" className="navLink">Team</Link>
-        <Link href="#" className="navLink">Insights</Link>
-        <Link href="#" className="navLink">FAQ</Link>
-        {hireUs()}
-      </div>
-      <Link href="#" className="navHireBtn"><button>
-        Hire us
-      </button></Link>
-
-      <div className="hamburgerMenu">
-        <div
-          className={`hamburger ${isOpen ? 'open' : ''}`}
-          onClick={toggleMenu}>
-          <div className="bar1"></div>
-          <div className="bar2"></div>
-          <div className="bar3"></div>
+      <nav className="nav">
+        <div className="logoBox">
+          <img className="logo1" src="/logo-left.png" alt="logo"></img>
+          <img className="logo2" src="/logo-right.png" alt="logo"></img>
         </div>
-      </div>
-    </nav>
+
+        <div className={`navigation ${scrolled ? 'navMove' : ''} ${isOpen ? 'mobileNav' : ''}`}>
+          <Link href="#" className="navLink lg:mr-6">Services</Link>
+          <Link href="#" className="navLink">Portfolio</Link>
+          <Link href="#" className="navLink">Team</Link>
+          <Link href="#" className="navLink">Insights</Link>
+          <Link href="#" className="navLink">FAQ</Link>
+          {hireUs()}
+        </div>
+
+        <Link href="#" className="navHireBtn">
+          <button>Hire us</button>
+        </Link>
+
+        <div className="hamburgerMenu">
+          <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
+          </div>
+        </div>
+      </nav>
     </>
   )
 }

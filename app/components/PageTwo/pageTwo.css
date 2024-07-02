@@ -1,0 +1,231 @@
+
+#pageTwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-inline: 30px;
+  height: 100vh;
+}
+
+.twoBox{
+  position: relative;
+  margin-top: 150px;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 450px;
+  max-height: auto;
+  border-radius: 14px;
+  background-color: rgb(7, 5, 10);
+  overflow: hidden;
+  --start: 0;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.066);
+} 
+
+.innerBox{
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #deddde;
+  padding-inline: 25px;
+}
+.perfectBox{
+  z-index: 2;
+  background-image: linear-gradient(135deg,#86fdd2,#f4e987 33.3%,#f86675 66.6%,#ad69f0);
+  border-radius: 100vh;
+  padding: 8px 15px;
+  transition: box-shadow .4s ease-in-out;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 8px 32px 5px rgba(167,0,87,.16);
+}
+.coverText{
+  position: absolute;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(7, 5, 10);
+  border-radius: 100vh;
+}
+.perfect{
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg,#ccffed,#fff9c6 33.3%,#ffc7cc 66.6%,#e8d0ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  white-space: nowrap;
+}
+.innerBox h2{
+  margin-block: 20px 0px;
+  font-size: min(max(20px, 4vw), 45px);
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "ClashDisplay-Medium";
+}
+.textinner{
+  font-size: min(max(12px, 2vw), 20px);
+  font-family: "ClashDisplay-Regular";
+  text-align: center;
+  letter-spacing: 1px;
+}
+.doBtn{
+  margin-top: 30px;
+  display: block;
+  z-index: 100;
+  padding: 9px 15px;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(-45deg,#b6d0f781 1.01%,#eef4e181 23.7%,#e2c1f981 43.8%,#bfd1f981 58.56%,#fafcfe81 70.48%,#bae4e281 80.41%,#8c6be381),#ffffff81;
+  border: 1px solid rgba(174, 174, 174, 0.261);
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 100vh;
+  transition: background 500ms, 200ms;
+  cursor: pointer;
+}
+.doBtn:hover{
+  background: linear-gradient(-45deg,#b6d0f7 1.01%,#eef4e1 23.7%,#e2c1f9 43.8%,#bfd1f9 58.56%,#fafcfe 70.48%,#bae4e2 80.41%,#8c6be3),#fff;
+  box-shadow: 0px 0px 15px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 17px;
+  border: 2px solid transparent;
+  background: rgba(171, 176, 247, 0.766);
+  background-attachment: fixed;
+  mask: linear-gradient(#0000, #0000),
+    conic-gradient(
+      from calc((var(--start) - (20 * 1.1)) * 1deg),
+      #ffffff1f 0deg,
+      white,
+      #ffffff00 100deg
+    );
+  mask-composite: intersect;
+  mask-clip: padding-box, border-box;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.glow {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(14px);
+}
+
+.glow::before {
+  position: absolute;
+  content: "";
+  width: 98%;
+  height: 98%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 14px;
+  border: 15px solid transparent;
+  background: var(--gradient);
+  background-attachment: fixed;
+  /* mask: linear-gradient(#0000, #0000), 
+  conic-gradient(
+    from calc(var(--start)  * 1deg), 
+    #000 0deg, 
+    #ffffff, 
+    rgba(0, 0, 0, 0) 60deg
+    ); */
+  mask: linear-gradient(#0000, #0000),
+    conic-gradient(
+      from calc((var(--start) - (20 * 1.1)) * 1deg),
+      #ffffff1f 0deg,
+      white,
+      #ffffff00 100deg
+    );
+  mask-composite: intersect;
+  mask-clip: padding-box, border-box;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.card:hover > .glow::before {
+  opacity: 1;
+}
+.card:hover::before {
+  opacity: 0.6;
+}

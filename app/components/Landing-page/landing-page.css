@@ -31,7 +31,7 @@
   color: rgba(255, 255, 255, 0.424);
   font-family: "ClashDisplay-Medium" !important;
   letter-spacing: 3px;
-  font-size: min(max(12px, 2vw), 30px);;
+  font-size: min(max(16px, 2vw), 30px);;
 }
 .actionBtn {
   width: fit-content;
@@ -111,4 +111,11 @@
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .landingSubText{
+    margin-inline: auto;
+    width: 24ch;
+  }
 }

@@ -156,5 +156,6 @@
     height: auto;
     gap: 15px;
     flex-wrap: wrap;
+    padding-block: 10px;
   }
 }

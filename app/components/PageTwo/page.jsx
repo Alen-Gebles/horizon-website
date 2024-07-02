@@ -42,10 +42,10 @@ function PageTwo() {
           </div>
           
           <h2>
-              Streamlined design and development.<br />Swift and remarkable results.
+            Professional design and development.<br />Superior quality & speed.
           </h2>
           <p className="textinner">
-              No fluff, no long processes, no bloated teams
+              Delivering perfection, without unnecessary complexity.
           </p>
           <button className='doBtn'>Our Services</button>
         </div>

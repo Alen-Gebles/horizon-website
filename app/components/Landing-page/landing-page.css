@@ -1,4 +1,114 @@
-.landing_page{
+:root {
+    --m: 4rem;
+    --red: #FF6565;
+    --pink: #FF64F9;
+    --purple: #6B5FFF;
+    --blue: #4D8AFF;
+    --green: #5BFF89;
+    --yellow: #FFEE55;
+    --orange: #FF6D1B;
+  }
+#landing_page{
+  position: relative;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 100%;
+}
+
+.MainTextBox{
+  margin-top: 200px;
+}
+.landingText{
+  text-align: center;
+  color: white;
+  font-family: "ClashDisplay-Medium" !important;
+  letter-spacing: 3px;
+  font-size: min(max(30px, 6vw), 80px);
+}
+.landingSubText{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.424);
+  font-family: "ClashDisplay-Medium" !important;
+  letter-spacing: 3px;
+  font-size: min(max(12px, 2vw), 30px);;
+}
+.actionBtn {
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: 50px;
+  padding: 12px 22px;
+  border-radius:  100vh;
+  background-color: rgba(255, 255, 255, 0.086);
+  color: white;
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+  transition: 250ms;
+}
+.actionBtn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100px;
+  width: 50%;
+  height: 100%;
+  transform: rotate(45deg);
+  filter: blur(10px);
+  transition: 400ms ease-in-out;
+  box-shadow: inset 0px 0px 10px rgb(59, 59, 59);
+  background-color: rgba(255, 255, 255, 0.152);
+} 
+.actionBtn:hover{
+  background-color: rgba(255, 255, 255, 0.135);
+}
+.actionBtn:hover::after {
+  left: 120%;
+}
+.imageScroller{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  gap: 40px;
+  flex-shrink: 0;
+}
+.imgHolder{
+  position: relative;
+  min-width: 400px;
+  width: 35vw;
+  max-width: 1000px;
+  height: auto;
+  z-index: 10;
+}
+.imgBg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  z-index: -1;
+  overflow: hidden;
+}
+.imgBg::after{
+  content: "";
+  position: absolute;
+  width: 250%;
+  height: 250%;
+  background: linear-gradient(0deg, rgba(241, 87, 255, 0.1) 30%, rgba(3, 183, 248, 0.174));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: bgSpin 30s linear infinite;
+  border-radius: 100vh;
+}
+@keyframes bgSpin {
+  50% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.scrImg{
+  position: relative;
+  width: 100%;
+  height: 100%;
 }

@@ -1,12 +1,45 @@
-import "./landing-page.css"
-function LandingPage(){
-  return (
-    <>
-    <section className="landing_page">
+"use client"
+import React, { useEffect } from 'react';
+import './landing-page.css'; // Import your CSS file
 
+function LandingPage() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      document.querySelector(".imageScroller").style.transform = `translateX(-${scrollY}px)`;
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const imageGroup = () => {
+    return(
+      <>
+        <div className="imgHolder"><div className="imgBg"></div><img className="scrImg" loading="lazy" src="/landingImages/image1.webp" alt="Image 1"></img></div>
+        <div className="imgHolder"><div className="imgBg"></div><img className="scrImg" loading="lazy" src="/landingImages/image2.webp" alt="Image 2"></img></div>
+        <div className="imgHolder"><div className="imgBg"></div><img className="scrImg" loading="lazy" src="/landingImages/image3.webp" alt="Image 3"></img></div>
+        <div className="imgHolder"><div className="imgBg"></div><img className="scrImg" loading="lazy" src="/landingImages/image4.webp" alt="Image 4"></img></div>
+      </>
+    )
+  }
+
+  return (
+    <section id="landing_page">
+      <div className="MainTextBox">
+        <h1 className="landingText">Your Online Presence</h1>
+        <h2 className="landingSubText">Crafted with Precision, Powered by Vision.</h2>
+      </div>
+      <button className='actionBtn'>Explore our work</button>
+      <div className="imageScroller">
+        {imageGroup()}
+        {imageGroup()}
+      </div>
     </section>
-    </>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;

@@ -4,9 +4,10 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
+  z-index: -1;
 }
 .bolaMov1 {
-  background: radial-gradient(circle,#3d73c97f 0%,#86ace939 10%, transparent 100% );
+  background: radial-gradient(circle,#3d73c9af 0%,#86ace966 10%, transparent 100% );
   opacity: 70%;
   filter: blur(100px);
   width: 480px;
@@ -15,12 +16,11 @@
   position: absolute;
   left: 80%;
   bottom: 40px;
-  z-index: 4;
   animation: rotar 50s infinite ease-in-out;
   transform-origin: 50% -100%;
 }
 .bolaMov2 {
-  background: radial-gradient(circle,#5366f955 0%, #8692e938 10%,transparent 100% );
+  background: radial-gradient(circle,#5366f98a 0%, #8692e965 10%,transparent 100% );
   opacity: 60%;
   filter: blur(60px);
   width: 300px;
@@ -29,11 +29,10 @@
   position: absolute;
   top: 130px;
   right: 20%;
-  z-index: 5;
   animation: gradient 35s infinite;
 }
 .bolaMov3 {
-  background: radial-gradient(circle,#be04f65c 0%, #c609ff3b 10%,transparent 100% );
+  background: radial-gradient(circle,#be04f691 0%, #c609ff67 10%,transparent 100% );
   filter: blur(40px);
   width: 1200px;
   height: 920px;
@@ -41,12 +40,11 @@
   position: absolute;
   top: 80%;
   left: 10%;
-  z-index: 8;
   animation: rotar 40s infinite ease-in-out;
   transform-origin: -50% 100%;
 }
 .bolaMov4 {
-  background: radial-gradient(circle,#1377ad53 0%,#3191c638 10%,  transparent 100% );
+  background: radial-gradient(circle,#1377ad8c 0%,#3192c663 10%,  transparent 100% );
   opacity: 90%;
   filter: blur(100px);
   width: 960px;
@@ -55,11 +53,10 @@
   position: absolute;
   bottom: -30%;
   right: -30%;
-  z-index: 1;
   animation: gradient 30s infinite;
 }
 .bolaMov5 {
-  background: radial-gradient(circle,#5979d354 0%, #86a0e938 10%,transparent 100% );
+  background: radial-gradient(circle,#5979d397 0%, #86a0e95c 10%,transparent 100% );
   opacity: 70%;
   filter: blur(50px);
   width: 1500px;
@@ -68,12 +65,11 @@
   position: absolute;
   top: 35%;
   left: 55%;
-  z-index: 6;
   animation: rotar 40s infinite;
   transform-origin: -70% -120%;
 }
 .bolaMov6 {
-  background: radial-gradient(circle,#b25ae160 0%, #c686e938 10%,transparent 100% );
+  background: radial-gradient(circle,#b25ae19f 0%, #c686e968 10%,transparent 100% );
   opacity: 70%;
   filter: blur(50px);
   width: 800px;
@@ -82,11 +78,10 @@
   position: absolute;
   top: -10%;
   left: 3%;
-  z-index: 6;
   animation: slidebg 20s linear infinite;
 }
 .bolaMov7 {
-  background: radial-gradient(circle,#e986865e 10%,#ff000021 0%, transparent 100% );
+  background: radial-gradient(circle,#e98686a5 10%,#ff000042 0%, transparent 100% );
   opacity: 70%;
   filter: blur(50px);
   width: 800px;
@@ -95,7 +90,6 @@
   position: absolute;
   top: 5%;
   left: 75%;
-  z-index: 6;
   transform: rotate(20deg);
   animation: bouncebg 20s linear infinite;
 }

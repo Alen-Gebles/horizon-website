@@ -5,12 +5,16 @@
   align-items: center;
   width: 100%;
   padding-inline: 30px;
-  height: 100vh;
+  height: auto;
 }
 
 .twoBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   position: relative;
-  margin-top: 150px;
+  margin-block: 100px;
   width: 100%;
   max-width: 1200px;
   min-height: 450px;
@@ -46,6 +50,15 @@
   display: inline-block;
   position: relative;
   box-shadow: 0 8px 32px 5px rgba(167,0,87,.16);
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0%, 100% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 200%;
+  }
 }
 .coverText{
   position: absolute;

@@ -1,0 +1,73 @@
+.pageThree{
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 25px;
+  flex-direction: column;
+}
+
+.featuredText{
+  color: white;
+  font-size: min(max(25px, 4vw), 50px);
+  font-family: "ClashDisplay-Medium";
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 300px;
+  height: 100%;
+  max-height: 700px;
+  border-radius: 14px;
+  background-color: rgb(7, 5, 10);
+  color: white;
+  overflow: hidden;
+  margin-bottom: 5vh;
+  border: 1px solid rgb(48, 47, 47);
+  cursor: pointer;
+}
+.project:hover .projectImage{
+  scale: 1.1;
+}
+.projectImage{
+  min-height: 300px;
+  height: 100%;
+  max-height: 500px;
+  width: auto;
+  object-fit: cover;
+  transition: 500ms;
+}
+.projectInfo{
+  position: absolute;
+  bottom: 0;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 3;
+  width: 100%;
+  padding: 10px 30px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.432);
+}
+.info h3{
+  font-size: min(max(15px, 4vw), 30px);
+  font-family: "ClashDisplay-Regular";
+  letter-spacing: 2px;
+}
+.info p{
+  font-size: min(max(12px, 2vw), 15px);
+  letter-spacing: 1px;
+  position: relative;
+  top: -5px;
+}
+.year{
+  font-size: min(max(12px, 2vw), 15px);
+}

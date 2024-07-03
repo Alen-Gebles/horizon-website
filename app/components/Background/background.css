@@ -32,7 +32,7 @@
   animation: gradient 35s infinite;
 }
 .bolaMov3 {
-  background: radial-gradient(circle,#be04f691 0%, #c609ff67 10%,transparent 100% );
+  background: radial-gradient(circle,#be04f65f 0%, #c609ff2a 10%,transparent 100% );
   filter: blur(40px);
   width: 1200px;
   height: 920px;
@@ -56,7 +56,7 @@
   animation: gradient 30s infinite;
 }
 .bolaMov5 {
-  background: radial-gradient(circle,#5979d397 0%, #86a0e95c 10%,transparent 100% );
+  background: radial-gradient(circle,#5979d36c 0%, #86a0e92a 10%,transparent 100% );
   opacity: 70%;
   filter: blur(50px);
   width: 1500px;
@@ -69,7 +69,7 @@
   transform-origin: -70% -120%;
 }
 .bolaMov6 {
-  background: radial-gradient(circle,#b25ae19f 0%, #c686e968 10%,transparent 100% );
+  background: radial-gradient(circle,#b25ae185 0%, #c686e93c 10%,transparent 100% );
   opacity: 70%;
   filter: blur(50px);
   width: 800px;
@@ -81,7 +81,7 @@
   animation: slidebg 20s linear infinite;
 }
 .bolaMov7 {
-  background: radial-gradient(circle,#e98686a5 10%,#ff000042 0%, transparent 100% );
+  background: radial-gradient(circle,#e9868674 10%,#ff00002d 0%, transparent 100% );
   opacity: 70%;
   filter: blur(50px);
   width: 800px;

@@ -2,6 +2,7 @@ import Image from "next/image";
 import LandingPage from "./components/Landing-page/page";
 import PageTwo from "./components/PageTwo/page";
 import PageThree from "./components/PageThree/page";
+import PageFour from "./components/PageFour/page";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <LandingPage />
       <PageTwo />
       <PageThree />
+      <PageFour />
     </main>
   );
 }

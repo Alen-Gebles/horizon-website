@@ -1,7 +1,15 @@
-import "./pageFour.css"
+"use client"
+import React from "react";
+import { useState, useEffect, useRef } from 'react';
+import "./pageFour.css";
 
-function PageFour(){
+function PageFour() {
 
+
+  return (
+    <section className="pageFour">
+    </section>
+  );
 }
 
-export default PageFour
+export default PageFour;

@@ -1,0 +1,9 @@
+.pageFour{
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding-inline: 6%;
+  color: white;
+  margin-top: 100px;
+}

@@ -48,7 +48,7 @@
 .textBox{
   color: white;
   border-radius: 14px;
-  border-block: 1px solid rgba(255, 255, 255, 0.127);
+  border-block: 1px solid rgba(255, 255, 255, 0.126);
   padding: 20px;
   background-color: rgb(7, 5, 10);
 }

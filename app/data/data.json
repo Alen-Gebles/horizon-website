@@ -1,0 +1,131 @@
+{
+  "branding": [
+    {
+      "id": 1,
+      "title": "Research",
+      "time" : "6-7 hours",
+      "text": "Understanding and investigating are crucial for creating a brand identity, as they deliver important insights into market dynamics, audience preferences, and competitive analysis. This information allows for the crafting of a strategic and unique brand identity."
+    },
+    {
+      "id": 2,
+      "title": "Visuality",
+      "time" : "2-3 hours",
+      "text": "Visual direction and mood boards play a critical role by visually capturing the desired aesthetic. They ensure alignment among stakeholders, promote collaboration, and steer the creation of a unified and influential brand identity."
+    },
+    {
+      "id": 3,
+      "title": "Brand Identity",
+      "time" : "2+ weeks",
+      "text": "Working closely with our brand design team, we develop a distinctive logo and brand identity that connects deeply with your target audience. Through careful consideration of trends, colors, typography, and beyond, we design visuals that authentically convey your narrative and evoke the intended message and emotions."
+    },
+    {
+      "id": 4,
+      "title": "Guidelines",
+      "time" : "1+ months",
+      "text": "Understanding and investigating are crucial for creating a brand identity, as they deliver important insights into market dynamics, audience preferences, and competitive analysis. This information allows for the crafting of a strategic and unique brand identity."
+    },
+    {
+      "id": 5,
+      "title": "Marketing",
+      "time" : "1-2 months",
+      "text": "Marketing collateral encompasses a range of visually compelling materials that bolster your brand's marketing endeavors. These include social assets, landing pages, printed materials, and banners, all crafted to enhance brand promotion and effectively convey essential messages."
+    }
+  ],
+  "design": [
+    {
+      "id": 1,
+      "title": "Discovery",
+      "time" : "2-3 hours",
+      "text": "By comprehensively understanding your business goals and technical requirements, we harness these insights to create a website project that delivers maximum impact for your brand."
+    },
+    {
+      "id": 2,
+      "title": "Design direction",
+      "time" : "5-6 hours",
+      "text": "Design direction and mood boards play a crucial role in the website design process as they provide a visual representation of the intended aesthetic and overall design direction."
+    },
+    {
+      "id": 3,
+      "title": "UX Design",
+      "time" : "2+ weeks",
+      "text": "Our dedicated UX designers create custom wireframes and offer content guidance to ensure the end result of your project is both intuitive and impactful, putting your website on the right track for success."
+    },
+    {
+      "id": 4,
+      "title": "Prototype",
+      "time" : "1+ week",
+      "text": "Understanding and investigating are crucial for creating a brand identity, as they deliver important insights into market dynamics, audience preferences, and competitive analysis. This information allows for the crafting of a strategic and unique brand identity."
+    },
+    {
+      "id": 5,
+      "title": "Hand-Off",
+      "time" : "1-2 days",
+      "text": "We provide a comprehensive Figma file for developer hand-off, equipped with clear annotations, color codes, and labels. This ensures developers have the necessary information to efficiently and accurately bring your project to life."
+    }
+  ],
+  "development": [
+    {
+      "id": 1,
+      "title": "Build",
+      "time" : "2-3 weeks",
+      "text": "Transform your crafted designs into a dynamic and functional website. Our expert team of developers will bring your vision to life, ensuring a seamless and engaging online presence."
+    },
+    {
+      "id": 2,
+      "title": "Integration",
+      "time" : "5-6 hours",
+      "text": "Effortlessly integrate your business platforms into your website. Seamlessly connect your CRM, and other systems to optimise operations and enhance user experiences, all within a unified digital ecosystem."
+    },
+    {
+      "id": 3,
+      "title": "Quality Testing",
+      "time" : "2+ weeks",
+      "text": "Quality assurance and testing before launching your website are vital to ensure a seamless user experience. We guarantee functionality, responsiveness, and compatibility across various devices and browsers, providing a polished and error-free website for your audience."
+    },
+    {
+      "id": 4,
+      "title": "Onboarding",
+      "time" : "1+ week",
+      "text": "With user-friendly onboarding, managing your website becomes a breeze. As a client, you'll find it easy to update content, make edits, and maintain your site hassle-free."
+    },
+    {
+      "id": 5,
+      "title": "Training",
+      "time" : "1-2 days",
+      "text": "With training, you'll have the power to manage and update your website independently. Take charge of your online presence, make edits effortlessly, and stay agile in a dynamic digital landscape."
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "title": "Product Vision",
+      "time" : "",
+      "text": "The foundation of successful product design begins with a well-defined product vision. Clearly outlining the what, how, why, and who sets the stage for a shared understanding and drives project success."
+    },
+    {
+      "id": 2,
+      "title": "Research",
+      "time" : "",
+      "text": "Product research explores the viability of your product vision. Gather valuable data to understand market fit and gather user feedback for iterative improvements and product refinement."
+    },
+    {
+      "id": 3,
+      "title": "User Analysis",
+      "time" : "",
+      "text": "Analysing user and market data unlocks valuable insights. Visualise and leverage the abundance of information to make informed decisions and take actionable steps towards product success."
+    },
+    {
+      "id": 4,
+      "title": "Design",
+      "time" : "",
+      "text": "Armed with valuable insights, your design team can confidently embark on creating a solution aligned with user needs. While specific details may evolve, your product vision remains intact, ensuring success in achieving your goals."
+    },
+    {
+      "id": 5,
+      "title": "After Launching",
+      "time" : "",
+      "text": "Post-launch marks the start of a journey towards refining the user experience. Actively listen to user feedback, iterate based on insights, and strive for ongoing improvement, ensuring your product evolves with user needs and expectations."
+    }
+  ]
+}
+  

@@ -34,7 +34,7 @@
   font-size: min(max(15px, 4vw), 25px);
   letter-spacing: 1px;
   position:sticky;
-  color: rgb(149, 149, 150);
+  color: rgb(149, 150, 150);
 }.serviceButton{
   transition: 200ms;
 }

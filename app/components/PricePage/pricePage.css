@@ -1,0 +1,17 @@
+.pricePage{
+  height: 1000px;
+  width: 100%;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.priceTitle{
+  font-size: min(max(20px, 4vw), 40px);
+  font-family: "ClashDisplay-Medium";
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}

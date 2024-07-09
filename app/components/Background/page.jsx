@@ -9,6 +9,8 @@ function Background(){
       <div className="bolaMov5"></div>
       <div className="bolaMov6"></div>
       <div className="bolaMov7"></div>
+      <div className="bolaMov8"></div>
+      <div className="bolaMov9"></div>
     </div>
     </>
   )

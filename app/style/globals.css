@@ -20,7 +20,7 @@ body::after{
   background-image: url("/grain.gif");
   opacity: 0.04;
   background-repeat: repeat;
-  background-size: 206px;
+  background-size: 207px;
   top: 0;
   z-index: -10;
 }

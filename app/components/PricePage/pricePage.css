@@ -1,7 +1,7 @@
 .pricePage{
   height: auto;
   width: 100%;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -180,7 +180,7 @@
     margin-inline: auto;
     width: 80%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 350px 350px;
+    grid-template-rows: 500px 500px;
   }
   .platinumPlan{
     grid-row: 1 / 2;
@@ -195,7 +195,7 @@
     margin-inline: auto;
     width: 80%;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 350px);
+    grid-template-rows: repeat(3, 500px);
   }
   .platinumPlan{
     grid-row: 1 / 2;

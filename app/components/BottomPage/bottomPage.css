@@ -1,0 +1,63 @@
+.bottomPage{
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  padding-inline: 10%;
+  padding-block: 80px;
+}
+
+.bottomLogo{
+  width: 200px;
+  height: auto;
+}
+.bottomPageleft{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+.logoBox{
+  width: auto;
+  gap: 10px;
+  color: white;
+}
+.bottomPageLinks{
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 120px 120px;
+  width: auto;
+  color: white;
+}
+.bottomGridItems{
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+.linkTitle{
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.bottomLinks{
+  color: rgb(134, 134, 134);
+  font-size: 15px;
+  cursor: pointer;
+}
+.bottomLinks:hover{
+  color: rgb(180, 180, 180);
+}
+
+@media (max-width: 764px) {
+  .bottomPage{
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+  }
+  .bottomPageleft{
+    align-items: center;
+  }
+  .bottomGridItems{
+    align-items: center;
+  }
+}

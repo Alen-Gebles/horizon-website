@@ -41,6 +41,7 @@
   letter-spacing: 1px;
   position:sticky;
   color: rgb(150, 150, 150);
+  white-space: nowrap;
 }.serviceButton{
   transition: 200ms;
 }
@@ -68,4 +69,15 @@
   color: rgba(255, 255, 255, 0.51);
 }
 
+
+
+@media (max-width: 764px) {
+  .serviceBox{
+    flex-direction: column;
+    align-items: center;
+  }
+  .innerBtn{
+    align-items: center;
+    margin-bottom: 50px;
+  }}
 

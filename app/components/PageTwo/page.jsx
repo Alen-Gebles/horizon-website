@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useRef } from 'react';
-import styles from './pageTwo.css'; // Assuming you have CSS modules set up
+import './pageTwo.css';
 
 function PageTwo() {
   const cardRef = useRef(null);
@@ -17,7 +17,7 @@ function PageTwo() {
         card.removeEventListener("mousemove", handleMouseMove);
       });
     };
-  }, []); // Empty dependency array ensures this effect runs only once on mount
+  }, [])
 
   function handleMouseMove(e) {
     const rect = cardRef.current.getBoundingClientRect();

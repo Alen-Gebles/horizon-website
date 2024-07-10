@@ -1,10 +1,11 @@
 .pricePage{
-  height: 1000px;
+  height: auto;
   width: 100%;
   padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-inline: 25px;
 }
 
 .priceTitle{
@@ -13,5 +14,192 @@
   letter-spacing: 2px;
   text-align: center;
   color: white;
-  margin-bottom: 100px;
+}
+
+.priceCardsBox{
+  width: 100%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-template-rows: 500px;
+  gap: 25px;
+}
+
+.priceCard{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  color: white;
+  width: 100%;
+  border-radius: 36px;
+  background: linear-gradient(to bottom in oklch, rgba(93, 89, 100, 0.555) 0%, transparent 90%);
+}
+.platinumPlan{
+  position: relative;
+  top: -60px;
+  height: 90%;
+  background: radial-gradient(circle at top, rgba(34, 99, 139, 0.791) 0%, rgba(93, 89, 100, 0.268) 100%);
+}
+.platinumPlan .planButton{
+  bottom: 30px;
+}
+.platinumPlan::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: 70%;
+  border-radius: 20px;
+  filter: blur(50px);
+  background-color: rgb(34, 99, 139);
+  z-index: -1;
+}
+.premiumPlan{
+  position: relative;
+  background: radial-gradient(circle at top in oklch, rgba(47, 47, 99, 0.681) 0%, transparent 90%);
+}
+.priceBtnBox{
+  position: relative;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.112);
+  border: 1px solid rgba(255, 255, 255, 0.169);
+  backdrop-filter: blur(10px);
+  padding: 7px;
+  border-radius: 100vh;
+  margin-block: 30px 130px;
+  color: white;
+}
+.priceBubble{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 120px;
+  height: 46px;
+  background-color: rgba(255, 255, 255, 0.141);
+  border-radius: 100vh;
+  z-index: 0;
+  transition: 200ms;
+}
+.priceBtn{
+  padding: 10px;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 10;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.512);
+  transition: 400ms;
+}
+.priceBtnActive{
+  color: white;
+}
+.swipeRight{
+  transform: translate( 84% , -50%);
+  width: 190px;
+  transform-origin: left;
+}
+.swipeLeft{
+  transform: translate( 0% , -50%);
+  width: 154px;
+}
+
+.planName{
+  font-size: 25px;
+  font-family: 'ClashDisplay-Medium';
+  letter-spacing: 1px;
+}
+.planPrice{
+  font-size: 35px;
+  font-family: 'ClashDisplay-Regular';
+  letter-spacing: 1px;
+  margin-block: 15px 0px;
+}
+.planPayment{
+  position: relative;
+  top: -10px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.589);
+  margin-bottom: 40px;
+}
+.planList{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.planList li::before{
+  content: "×";
+  font-weight: bold;
+  margin-right: 5px;
+  color: aqua;
+}
+
+.planButton{
+  position: absolute;
+  bottom: 70px;
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: 50px;
+  padding: 12px 22px;
+  border-radius:  100vh;
+  background-color: rgba(255, 255, 255, 0.086);
+  color: white;
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+  transition: 250ms;
+}
+.planButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100px;
+  width: 50%;
+  height: 100%;
+  transform: rotate(45deg);
+  filter: blur(10px);
+  transition: 400ms ease-in-out;
+  box-shadow: inset 0px 0px 10px rgb(59, 59, 59);
+  background-color: rgba(255, 255, 255, 0.152);
+} 
+.planButton:hover{
+  background-color: rgba(255, 255, 255, 0.135);
+}
+.planButton:hover::after {
+  left: 120%;
+}
+@media (max-width: 1024px) {
+  .priceCardsBox{
+    margin-inline: auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px;
+  }
+  .platinumPlan{
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    top: 0;
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+@media (max-width: 764px) {
+  .priceCardsBox{
+    margin-inline: auto;
+    width: 80%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 350px);
+  }
+  .platinumPlan{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 100%;
+  }
 }

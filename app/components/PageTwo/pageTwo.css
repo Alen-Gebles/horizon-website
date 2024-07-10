@@ -164,9 +164,6 @@
 
 
 
-
-
-
 .card::before {
   position: absolute;
   content: "";
@@ -177,14 +174,14 @@
   transform: translate(-50%, -50%);
   border-radius: 17px;
   border: 2px solid transparent;
-  background: rgba(171, 176, 247, 0.766);
+  background: rgba(171, 176, 247, 0.4);
   background-attachment: fixed;
   mask: linear-gradient(#0000, #0000),
     conic-gradient(
       from calc((var(--start) - (20 * 1.1)) * 1deg),
       #ffffff1f 0deg,
       white,
-      #ffffff00 100deg
+      #ffffff00 120deg
     );
   mask-composite: intersect;
   mask-clip: padding-box, border-box;

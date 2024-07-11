@@ -20,9 +20,9 @@ function PageThree() {
     );
   };
 
-  const projectData1 = {imgSrc: '/landingImages/image1.webp', projectName: 'Recket', projectSubject: 'Recycling website', year: 'Highlighted',};
-  const projectData2 = {imgSrc: '/landingImages/image2.webp', projectName: 'Alexander William', projectSubject: 'Private Investments', year: '2023',};
-  const projectData3 = {imgSrc: '/landingImages/image3.webp', projectName: 'Ultra', projectSubject: 'Online Bank', year: '2024',};
+  const projectData1 = {imgSrc: './landingImages/image1.webp', projectName: 'Recket', projectSubject: 'Recycling website', year: 'Highlighted',};
+  const projectData2 = {imgSrc: './landingImages/image2.webp', projectName: 'Alexander William', projectSubject: 'Private Investments', year: '2023',};
+  const projectData3 = {imgSrc: './landingImages/image3.webp', projectName: 'Ultra', projectSubject: 'Online Bank', year: '2024',};
 
   return (
     <section className="pageThree">

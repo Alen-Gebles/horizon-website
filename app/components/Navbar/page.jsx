@@ -32,8 +32,8 @@ function Navbar(){
     <>
       <nav className="nav">
         <div className="logoBox">
-          <img className="logo1" src="/logo-left.png" alt="logo"></img>
-          <img className="logo2" src="/logo-right.png" alt="logo"></img>
+          <img className="logo1" src="./logo-left.png" alt="logo"></img>
+          <img className="logo2" src="./logo-right.png" alt="logo"></img>
         </div>
 
         <div className={`navigation ${scrolled ? 'navMove' : ''} ${isOpen ? 'mobileNav' : ''}`}>

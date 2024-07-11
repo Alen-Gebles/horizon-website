@@ -6,7 +6,7 @@ export default function BottomPage() {
   return (
     <section className='bottomPage'>
       <div className='bottomPageleft'>
-        <img className='bottomLogo' src='/logo-right.png' />
+        <img className='bottomLogo' src='./logo-right.png' />
         <div className='logoBox'>
           <p>Linkedin</p>
           <p>twitter</p>

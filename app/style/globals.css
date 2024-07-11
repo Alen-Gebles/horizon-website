@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import '../components/Background/background.css';
-@import '@/fonts.css';
+@import './fonts.css';
 
 body {
   width: 100vw;

@@ -3,9 +3,9 @@ import './pageThree.css';
 import Link from 'next/link';
 
 function PageThree() {
-  const project = ({ imgSrc, projectName, projectSubject, year }) => {
+  const project = ({ imgSrc, projectName, projectSubject, year, link }) => {
     return (
-      <Link href="#">
+      <Link href={link} target='_blank'>
         <div className="project">
             <img className="projectImage" src={imgSrc} alt={projectName} />
           <div className="projectInfo">
@@ -20,9 +20,9 @@ function PageThree() {
     );
   };
 
-  const projectData1 = {imgSrc: './landingImages/image1.webp', projectName: 'Recket', projectSubject: 'Recycling website', year: 'Highlighted',};
-  const projectData2 = {imgSrc: './landingImages/image2.webp', projectName: 'Alexander William', projectSubject: 'Private Investments', year: '2023',};
-  const projectData3 = {imgSrc: './landingImages/image3.webp', projectName: 'Ultra', projectSubject: 'Online Bank', year: '2024',};
+  const projectData1 = {imgSrc: './landingImages/image1.png', projectName: 'Resn', projectSubject: 'Playground website', year: 'Highlighted', link: "https://resn.co.nz/"};
+  const projectData2 = {imgSrc: './landingImages/image2.png', projectName: 'Get Unity', projectSubject: 'Tech Company', year: '2023', link: "https://www.getunity.com/"};
+  const projectData3 = {imgSrc: './landingImages/image3.png', projectName: 'Tao Tajima', projectSubject: 'Filmmaker', year: '2024', link: "http://taotajima.jp/"};
 
   return (
     <section className="pageThree" id='pageThree'>

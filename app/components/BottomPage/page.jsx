@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function BottomPage() {
   return (
-    <section className='bottomPage'>
+    <section className='bottomPage' id='bottomPage'>
       <div className='bottomPageleft'>
         <img className='bottomLogo' src='./logo-right.png' />
         <div className='logoBox'>

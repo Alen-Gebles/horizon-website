@@ -23,6 +23,10 @@
 @font-face {font-family: 'Satoshi-Variable';src: url('./fonts/Satoshi-Variable.woff') format('woff');}
 @font-face {font-family: 'Satoshi-VariableItalic';src: url('./fonts/Satoshi-VariableItalic.woff') format('woff');}
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
 
 body {
   width: 100vw;
@@ -31,7 +35,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: "Satoshi" !important;
-  background-color: rgb(2, 0, 7);
+  background-color: rgb(4, 0, 14);
 }
 body::after{
   content: "";

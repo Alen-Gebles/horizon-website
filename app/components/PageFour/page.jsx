@@ -11,7 +11,7 @@ function PageFour() {
   };
 
   return (
-    <section className="pageFour">
+    <section className="pageFour" id="pageFour">
       <h2 className="FourHeadline">Select the full range of services<br />or simply the ones you prefer...</h2>
       <div className="serviceBox">
         <div className="fourButtonBox">

@@ -119,6 +119,18 @@
   transform: rotate(20deg);
   animation: bouncebg 40s linear infinite;
 }
+.bolaMov10 {
+  background: radial-gradient(circle,#cb86e93a 10%,#5900ff1e 0%, transparent 100% );
+  opacity: 70%;
+  filter: blur(50px);
+  width: 1200px;
+  height: 850px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5%;
+  left: -600px;
+  transform: rotate(20deg);
+}
 
 @keyframes rotar {
   0% {

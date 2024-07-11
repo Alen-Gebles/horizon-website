@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect } from 'react';
-import './landing-page.css'; // Import your CSS file
+import './landing-page.css'; 
+import Link from 'next/link';
 
 function LandingPage() {
   useEffect(() => {
@@ -33,7 +34,7 @@ function LandingPage() {
         <h1 className="landingText">Your Online Presence</h1>
         <h2 className="landingSubText">Crafted with Precision, Powered by Vision.</h2>
       </div>
-      <button className='actionBtn'>Explore our work</button>
+      <Link href="#pageThree" className='actionBtn'>Explore our work</Link>
       <div className="imageScroller">
         {imageGroup()}
         {imageGroup()}

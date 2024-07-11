@@ -25,7 +25,7 @@ function PageThree() {
   const projectData3 = {imgSrc: './landingImages/image3.webp', projectName: 'Ultra', projectSubject: 'Online Bank', year: '2024',};
 
   return (
-    <section className="pageThree">
+    <section className="pageThree" id='pageThree'>
       <h1 className="featuredText">Featured work</h1>
       {project(projectData1)}
       {project(projectData2)}

@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useRef } from 'react';
 import './pageTwo.css';
+import Link from 'next/link';
 
 function PageTwo() {
   const cardRef = useRef(null);
@@ -47,7 +48,7 @@ function PageTwo() {
           <p className="textinner">
               Delivering perfection, without unnecessary complexity.
           </p>
-          <button className='doBtn'>Our Services</button>
+          <Link href="#pageFour" className='doBtn'>Our Services</Link>
         </div>
       </div>
     </section>

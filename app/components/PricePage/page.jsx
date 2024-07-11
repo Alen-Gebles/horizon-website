@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import './pricePage.css';
+import Link from 'next/link';
 
 export default function PricePage() {
   const [bubble, setBubble] = useState(true);
@@ -47,7 +48,7 @@ export default function PricePage() {
   };
 
   return (
-    <section className='pricePage'>
+    <section className='pricePage' id='PricePage'>
       <h1 className='priceTitle'>Get Started with the Right Plan</h1>
       <div className='priceBtnBox'>
         <div className={`priceBubble ${bubble ? 'swipeLeft' : 'swipeRight'}`}></div>
@@ -65,7 +66,7 @@ export default function PricePage() {
                 <li key={i}>{feature}</li>
               ))}
             </ul>
-            <button className='planButton'>Book a Call</button>
+            <Link href="https://cal.com/alen-gebles-mfkyly/30min" target='_blank' className='planButton'>Book a Call</Link>
           </div>
         ))}
       </div>

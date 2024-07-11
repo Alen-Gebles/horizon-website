@@ -25,7 +25,7 @@ function Navbar(){
   };
 
   const hireUs = () => {
-    return(<Link href="#" className={`navLink navHire ${scrolled ? 'block' : 'hidden'}`}>Hire Us</Link>)
+    return(<Link href="https://cal.com/alen-gebles-mfkyly/30min" target="_blank" className={`navLink navHire ${scrolled ? 'block' : 'hidden'}`}>Hire Us</Link>)
   }
 
   return(
@@ -37,15 +37,14 @@ function Navbar(){
         </div>
 
         <div className={`navigation ${scrolled ? 'navMove' : ''} ${isOpen ? 'mobileNav' : ''}`}>
-          <Link href="#" className="navLink lg:mr-6">Services</Link>
-          <Link href="#" className="navLink">Portfolio</Link>
-          <Link href="#" className="navLink">Team</Link>
-          <Link href="#" className="navLink">Insights</Link>
-          <Link href="#" className="navLink">FAQ</Link>
+          <Link href="#pageFour" className="navLink lg:mr-6">Services</Link>
+          <Link href="#pageThree" className="navLink">Portfolio</Link>
+          <Link href="#PricePage" className="navLink">Plan</Link>
+          <Link href="#bottomPage" className="navLink">Contact</Link>
           {hireUs()}
         </div>
 
-        <Link href="#" className="navHireBtn">
+        <Link href="https://cal.com/alen-gebles-mfkyly/30min" target="_blank" className="navHireBtn">
           <button>Hire us</button>
         </Link>
 

@@ -3,25 +3,25 @@
 @tailwind utilities;
 @import '../components/Background/background.css';
 
-@font-face {font-family: 'ClashDisplay-Extralight';src: url('/public/fonts/ClashDisplay-Extralight.woff') format('woff');}
-@font-face {font-family: 'ClashDisplay-Light';src: url('/public/fonts/ClashDisplay-Light.woff') format('woff');}
-@font-face {font-family: 'ClashDisplay-Regular';src: url('/public/fonts/ClashDisplay-Regular.woff') format('woff');}
-@font-face {font-family: 'ClashDisplay-Medium';src: url('/public/fonts/ClashDisplay-Medium.woff') format('woff');}
-@font-face {font-family: 'ClashDisplay-Semibold';src: url('/public/fonts/ClashDisplay-Semibold.woff') format('woff');}
-@font-face {font-family: 'ClashDisplay-Bold';src: url('/public/fonts/ClashDisplay-Bold.woff') format('woff');}
-@font-face {font-family: 'ClashDisplay-Variable';src: url('/public/fonts/ClashDisplay-Variable.woff') format('woff');}
-@font-face {font-family: 'Satoshi-Light';src: url('/public/fonts/Satoshi-Light.woff') format('woff');}
-@font-face {font-family: 'Satoshi-LightItalic';src: url('/public/fonts/Satoshi-LightItalic.woff') format('woff');}
-@font-face {font-family: 'Satoshi-Regular';src: url('/public/fonts/Satoshi-Regular.woff') format('woff');}
-@font-face {font-family: 'Satoshi-Italic';src: url('/public/fonts/Satoshi-Italic.woff') format('woff');}
-@font-face {font-family: 'Satoshi-Medium';src: url('/public/fonts/Satoshi-Medium.woff') format('woff');}
-@font-face {font-family: 'Satoshi-MediumItalic';src: url('/public/fonts/Satoshi-MediumItalic.woff') format('woff');}
-@font-face {font-family: 'Satoshi-Bold';src: url('/public/fonts/Satoshi-Bold.woff') format('woff');}
-@font-face {font-family: 'Satoshi-BoldItalic';src: url('/public/fonts/Satoshi-BoldItalic.woff') format('woff');}
-@font-face {font-family: 'Satoshi-Black';src: url('/public/fonts/Satoshi-Black.woff') format('woff');}
-@font-face {font-family: 'Satoshi-BlackItalic';  src: url('/public/fonts/Satoshi-BlackItalic.woff') format('woff');}
-@font-face {font-family: 'Satoshi-Variable';src: url('/public/fonts/Satoshi-Variable.woff') format('woff');}
-@font-face {font-family: 'Satoshi-VariableItalic';src: url('/public/fonts/Satoshi-VariableItalic.woff') format('woff');}
+@font-face {font-family: 'ClashDisplay-Extralight';src: url('../../public/fonts/ClashDisplay-Extralight.woff') format('woff');}
+@font-face {font-family: 'ClashDisplay-Light';src: url('../../public/fonts/ClashDisplay-Light.woff') format('woff');}
+@font-face {font-family: 'ClashDisplay-Regular';src: url('../../public/fonts/ClashDisplay-Regular.woff') format('woff');}
+@font-face {font-family: 'ClashDisplay-Medium';src: url('../../public/fonts/ClashDisplay-Medium.woff') format('woff');}
+@font-face {font-family: 'ClashDisplay-Semibold';src: url('../../public/fonts/ClashDisplay-Semibold.woff') format('woff');}
+@font-face {font-family: 'ClashDisplay-Bold';src: url('../../public/fonts/ClashDisplay-Bold.woff') format('woff');}
+@font-face {font-family: 'ClashDisplay-Variable';src: url('../../public/fonts/ClashDisplay-Variable.woff') format('woff');}
+@font-face {font-family: 'Satoshi-Light';src: url('../../public/fonts/Satoshi-Light.woff') format('woff');}
+@font-face {font-family: 'Satoshi-LightItalic';src: url('../../public/fonts/Satoshi-LightItalic.woff') format('woff');}
+@font-face {font-family: 'Satoshi-Regular';src: url('../../public/fonts/Satoshi-Regular.woff') format('woff');}
+@font-face {font-family: 'Satoshi-Italic';src: url('../../public/fonts/Satoshi-Italic.woff') format('woff');}
+@font-face {font-family: 'Satoshi-Medium';src: url('../../public/fonts/Satoshi-Medium.woff') format('woff');}
+@font-face {font-family: 'Satoshi-MediumItalic';src: url('../../public/fonts/Satoshi-MediumItalic.woff') format('woff');}
+@font-face {font-family: 'Satoshi-Bold';src: url('../../public/fonts/Satoshi-Bold.woff') format('woff');}
+@font-face {font-family: 'Satoshi-BoldItalic';src: url('../../public/fonts/Satoshi-BoldItalic.woff') format('woff');}
+@font-face {font-family: 'Satoshi-Black';src: url('../../public/fonts/Satoshi-Black.woff') format('woff');}
+@font-face {font-family: 'Satoshi-BlackItalic';  src: url('../../public/fonts/Satoshi-BlackItalic.woff') format('woff');}
+@font-face {font-family: 'Satoshi-Variable';src: url('../../public/fonts/Satoshi-Variable.woff') format('woff');}
+@font-face {font-family: 'Satoshi-VariableItalic';src: url('../../public/fonts/Satoshi-VariableItalic.woff') format('woff');}
 
 
 body {

@@ -5,7 +5,7 @@ export default function Fame() {
   return (
     <section className='fame'>
       <h1 className='fameTitle'>Hall Of Fame</h1>
-      <p className='fameSubTitle'>All the Clients we've worked with ( Inspo from <a target='_blank' className='fameLink' href='https://www.northdigital.io/'>North Digital</a> )</p>
+      <p className='fameSubTitle'>All the Clients we&apos;ve worked with ( Inspo from <a target='_blank' className='fameLink' href='https://www.northdigital.io/'>North Digital</a> )</p>
       <div className='fameGrid'>
         <p className='fameCompany'>Twilio</p>
         <p className='fameCompany'>Algolia</p>

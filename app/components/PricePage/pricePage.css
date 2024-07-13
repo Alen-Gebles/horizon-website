@@ -13,7 +13,7 @@
   font-family: "ClashDisplay-Medium";
   letter-spacing: 2px;
   text-align: center;
-  color: white;
+  color: var(--font-clr);
 }
 
 .priceCardsBox{
@@ -31,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 10px;
-  color: white;
+  color: var(--font-clr);
   width: 100%;
   border-radius: 36px;
   background: linear-gradient(to bottom in oklch, rgba(93, 89, 100, 0.555) 0%, transparent 90%);
@@ -73,7 +73,7 @@
   padding: 7px;
   border-radius: 100vh;
   margin-block: 30px 130px;
-  color: white;
+  color: var(--font-clr);
 }
 .priceBubble{
   position: absolute;
@@ -92,11 +92,11 @@
   cursor: pointer;
   z-index: 10;
   letter-spacing: 1px;
-  color: rgba(255, 255, 255, 0.512);
+  color: var(--faded-font-clr);
   transition: 400ms;
 }
 .priceBtnActive{
-  color: white;
+  color: var(--font-clr);
 }
 .swipeRight{
   transform: translate( 84% , -50%);
@@ -123,7 +123,7 @@
   position: relative;
   top: -10px;
   font-size: 15px;
-  color: rgba(255, 255, 255, 0.589);
+  color: var(--faded-font-clr);
   margin-bottom: 40px;
 }
 .planList{
@@ -151,7 +151,7 @@
   padding: 12px 22px;
   border-radius:  100vh;
   background-color: rgba(255, 255, 255, 0.086);
-  color: white;
+  color: var(--font-clr);
   backdrop-filter: blur(20px);
   overflow: hidden;
   transition: 250ms;

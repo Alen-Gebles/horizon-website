@@ -21,14 +21,14 @@
 }
 .landingText{
   text-align: center;
-  color: white;
+  color: var(--font-clr);
   font-family: "ClashDisplay-Medium" !important;
   letter-spacing: 3px;
   font-size: min(max(30px, 6vw), 80px);
 }
 .landingSubText{
   text-align: center;
-  color: rgba(255, 255, 255, 0.424);
+  color: var(--faded-font-clr);
   font-family: "ClashDisplay-Medium" !important;
   letter-spacing: 3px;
   font-size: min(max(16px, 2vw), 30px);;
@@ -40,7 +40,7 @@
   padding: 12px 22px;
   border-radius:  100vh;
   background-color: rgba(255, 255, 255, 0.086);
-  color: white;
+  color: var(--font-clr);
   backdrop-filter: blur(20px);
   overflow: hidden;
   transition: 250ms;

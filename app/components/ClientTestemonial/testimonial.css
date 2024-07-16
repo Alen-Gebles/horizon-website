@@ -1,0 +1,95 @@
+.ClientTestimonial{
+  height: 60vh;
+  width: 100%;
+  max-width: 1000px;
+  padding-inline: 25px;
+  margin-bottom: 100px;
+  margin-inline: auto;
+}
+
+.clientTitle{
+  color: var(--font-clr);
+  font-size: min(max(20px, 4vw), 40px);
+  font-family: "ClashDisplay-Medium";
+  letter-spacing: 2px;
+}
+.reviewContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  max-height: auto;
+}
+.revBox{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+.clientButtonBox{
+  color: var(--font-clr);
+  display: flex;
+  gap: 20px;
+  margin-right: 25px;
+}
+.clientBtn{
+  background-color: rgba(191, 191, 191, 0.15);
+  height: 80px;
+  width: 80px;
+  border-radius: 100vh;
+  transition: 100ms;
+  cursor: pointer;
+}
+.clientBtn:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.textLeft{
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  color: var(--faded-font-clr);
+}
+
+.reviewBox{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.review{
+  position: relative;
+  width: 100%;
+  padding: 40px;
+  border-radius: 24px;
+  height: auto;
+  color: white;
+  background-color: rgb(9, 6, 14)
+}
+.review::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  border-radius: 25px;
+  background: linear-gradient(to bottom, rgba(198, 205, 255, 0.355), rgba(255, 255, 255, 0.092));
+  z-index: -10;
+}
+.reviewText{
+  font-size: min(max(14px, 4vw), 25px);
+}
+.reviewName{
+  font-size: min(max(10px, 4vw), 20px);
+  margin-top: 20px;
+}
+.reviewPosition{
+  font-size: min(max(10px, 4vw), 20px);
+  color: var(--faded-font-clr);
+}
+.reviewStars{
+  margin-bottom: 10px;
+  font-size: 30px;
+}

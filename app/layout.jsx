@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./style/globals.css";
 import Navbar from "./components/Navbar/page";
 import Background from "./components/Background/page";
+import Transition from './Transition'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Background />
         <Navbar />
-        {children}
+        <Transition>{children}</Transition>
         </body>
     </html>
   );

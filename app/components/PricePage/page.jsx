@@ -54,7 +54,7 @@ export default function PricePage() {
     <section className='pricePage' id='PricePage'>
       <h1 className='priceTitle'>Get Started with the Right Plan</h1>
       <div className='priceBtnBox'>
-        <div key={transitionKey} className={`priceBubble ${bubble ? 'swipeLeft' : 'swipeRight'}`}></div>
+        <div className={`priceBubble ${bubble ? 'swipeLeft' : 'swipeRight'}`}></div>
         <button className={`priceBtn ${bubble ? 'priceBtnActive' : ''}`} onClick={() => handleClick(true)}>One Deployment</button>
         <button className={`priceBtn ${bubble ? '' : 'priceBtnActive'}`} onClick={() => handleClick(false)}>Monthly Subscription</button>
       </div>

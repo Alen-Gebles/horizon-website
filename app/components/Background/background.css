@@ -94,7 +94,7 @@
   animation: bouncebg 25s linear infinite;
 }
 .bolaMov8 {
-  background: radial-gradient(circle,#e986e446 10%,#ff00ff1a 0%, transparent 100% );
+  background: radial-gradient(circle,#ac86e946 10%,#4c00ff1a 0%, transparent 100% );
   opacity: 70%;
   filter: blur(50px);
   width: 800px;

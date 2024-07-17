@@ -2,12 +2,15 @@
 import React, { useState } from "react";
 import "./pageFour.css";
 import data from '../../data/data.json';
+import Transition from '../../Transition'
 
 function PageFour() {
   const [buttonValue, setButtonValue] = useState('branding');
+  const [transitionKey, setTransitionKey] = useState(0);
 
   const handleButtonClick = (value) => {
     setButtonValue(value);
+    setTransitionKey(value);
   };
 
   return (
@@ -24,7 +27,8 @@ function PageFour() {
           
         </div>
         <div className={`fourTextBox`}>
-          {data[buttonValue].map(item => (
+          <Transition key={transitionKey}>
+            {data[buttonValue].map(item => (
             <div className="textBox" key={item.id}>
               <div className="w-full flex justify-between items-center mb-3">
                 <h3 className="titleFour">{item.title}</h3>
@@ -33,6 +37,8 @@ function PageFour() {
               <p className="fourText">{item.text}</p>
             </div>
           ))}
+          </Transition>
+          
         </div>
       </div>
     </section>

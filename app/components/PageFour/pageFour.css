@@ -59,6 +59,7 @@
   padding: 20px;
   background-color: rgba(7, 5, 10, 0.624);
   backdrop-filter: blur(20px);
+  margin-bottom: 10px;
 }
 .titleFour{
   font-size: 25px;

@@ -78,7 +78,7 @@ justify-content: space-between;
   width: calc(100% + 2px);
   height: calc(100% + 2px);
   border-radius: 25px;
-  background: linear-gradient(to bottom, rgba(198, 205, 255, 0.29), rgba(255, 255, 255, 0.052));
+  background: linear-gradient(to bottom, rgba(151, 163, 253, 0.064), rgba(255, 255, 255, 0.04));
   z-index: -10;
 }
 .reviewText{

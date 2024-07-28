@@ -58,7 +58,7 @@
   border-block: 1px solid rgba(117, 119, 249, 0.107);
   padding: 20px;
   background-color: rgba(7, 5, 10, 0.624);
-  background: radial-gradient(circle at top, rgba(74, 74, 80, 0.482) 0%, rgba(16, 16, 22, 0.252) 50%);
+  background: radial-gradient(circle at top, rgba(74, 74, 80, 0.297) 0%, rgba(16, 16, 22, 0) 60%);
   backdrop-filter: blur(20px);
   margin-bottom: 10px;
 }

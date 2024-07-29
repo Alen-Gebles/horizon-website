@@ -131,6 +131,31 @@
   left: -600px;
   transform: rotate(20deg);
 }
+.bolaMov11 {
+  background: radial-gradient(circle,#b25ae14b 0%, #c686e925 10%,transparent 100% );
+  opacity: 70%;
+  filter: blur(50px);
+  width: 800px;
+  height: 630px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: -10%;
+  animation: slidebg 20s linear infinite;
+}
+.bolaMov12{
+  background: radial-gradient(circle,#86e9d053 10%,#4800ff25 0%, transparent 100% );
+  opacity: 70%;
+  filter: blur(50px);
+  width: 800px;
+  height: 650px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  transform: rotate(20deg);
+  animation: bouncebg 35s linear infinite;
+}
 
 @keyframes rotar {
   0% {

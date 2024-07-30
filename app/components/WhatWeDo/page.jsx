@@ -12,7 +12,7 @@ export default function WhatWeDo() {
         <div className='qLine qTwo'></div>
       </div>
       <h3 className='whatWeDoSubTitle'>
-          We specialize in small business web design and development for clients globally. Every line of code is written by hand to ensure optimal performance, attracting more customers to your site and boosting your business's revenue. 
+          We specialize in small business web design and development for clients globally. Every line of code is written by hand to ensure optimal performance, attracting more customers to your site and boosting your business&#39;s revenue. 
       </h3>
       <div className='whatContainer'>
         <div className='whatBox'>

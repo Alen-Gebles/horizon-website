@@ -26,6 +26,7 @@
   color: white;
   z-index: 1000;
   transition: 300ms;
+  font-family: "Satoshi" !important;
 }
 .navMove{
   transform: translateY(-10px) translateX(-50%);
